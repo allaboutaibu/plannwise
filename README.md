@@ -111,7 +111,7 @@ Animated background effects
 **Application Workflow:**
 
 <p align="center">
-  <img src="./img.png" alt="Project Banner" width="100%">
+  <img src="./workflow.jpeg" alt="Project Banner" width="100%">
 </p>
 
 ---
