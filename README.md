@@ -89,7 +89,7 @@ List the key features of your project:
   <img src="./Screenshot 2026-02-21 073812.png" alt="Project Banner" width="100%">
 </p>
 <p align="center">
-  <img src="./img.png" alt="Project Banner" width="100%">
+  <img src="./Screenshot 2026-02-21 073822.png" alt="Project Banner" width="100%">
 </p>
 
 #### Diagrams
