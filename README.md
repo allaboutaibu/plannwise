@@ -2,21 +2,19 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# [PlanWise] 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+name:Theertha Sreedharan
+college: viswajyothi college of engineering and technology vazhakulam
 
-### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
 
 ### Hosted Project Link
-[mention your project hosted link here]
+https://plannwise.vercel.app/
 
 ### Project Description
-[2-3 lines about what your project does]
+
 
 ### The Problem statement
 [What problem are you solving?]
@@ -301,6 +299,7 @@ python script.py -c config.json --verbose input.txt
 
 #### Demo Output
 https://drive.google.com/file/d/1WQjljEzTWOPkll03sWBdsILpI-Daabmz/view?usp=sharing
+
 **Example 1: Basic Processing**
 
 **Input:**
