@@ -103,98 +103,16 @@ Animated background effects
 #### Diagrams
 
 **System Architecture:**
+<p align="center">
+  <img src="./img.png" alt="Project Banner" width="100%">
+</p>
 
-┌──────────────────────┐
-                   │        User          │
-                   │  (Student / User)    │
-                   └──────────┬───────────┘
-                              │
-                              ▼
-                   ┌──────────────────────┐
-                   │     Web Browser      │
-                   │ (Chrome / Edge etc.) │
-                   └──────────┬───────────┘
-                              │
-                              ▼
-        ┌────────────────────────────────────────┐
-        │        Frontend Application            │
-        │  (HTML + CSS + JavaScript)            │
-        └────────────────────────────────────────┘
-                              │
-          ┌───────────────────┼───────────────────┐
-          ▼                   ▼                   ▼
-┌────────────────┐   ┌────────────────┐   ┌────────────────┐
-│ Landing Page   │   │ Timetable      │   │ Pomodoro Timer │
-│ UI Component   │   │ Generator      │   │ Module         │
-└────────────────┘   └────────────────┘   └────────────────┘
-                          │                      │
-                          ▼                      ▼
-                ┌──────────────────┐    ┌──────────────────┐
-                │ Schedule Logic   │    │ Timer Logic      │
-                │ (JS Functions)   │    │ (Interval Logic) │
-                └──────────────────┘    └──────────────────┘
-                          │                      │
-                          └──────────────┬───────┘
-                                         ▼
-                               ┌────────────────┐
-                               │ Dynamic Output │
-                               │ (UI Updates)   │
-                               └────────────────┘
 
 **Application Workflow:**
 
-Application Launch
-User opens the application in a web browser.
-The landing page is displayed.
-User clicks “Get Started” to enter the main system.
-2) Navigation Selection
-
-After entering the app, the user chooses:
-📅 Timetable Section
-OR
-⏱ Pomodoro Timer Section
-Only the selected section is displayed.
-
-3) Timetable Generation Workflow
-Step 1: Input Collection
-User enters:
-Number of subjects
-Subject names
-Difficulty level for each subject
-Available study hours
-Step 2: Processing
-JavaScript collects input data.
-The system distributes time based on:
-Total available hours
-Number of subjects
-Subject difficulty
-Step 3: Output Generation
-A structured timetable is generated.
-The schedule is displayed dynamically on the screen.
-Study sessions are balanced to avoid overload.
-
-4) Pomodoro Timer Workflow
-Step 1: Timer Setup
-User sets:
-Focus duration (minutes)
-Break duration (minutes)
-Step 2: Timer Start
-User clicks Start.
-Countdown begins.
-Phase is shown (Focus or Break).
-Step 3: Phase Switching
-When focus ends → Break starts automatically.
-Session counter increases after each focus cycle.
-Step 4: Controls
-User can:
-Pause timer
-Reset timer
-Restart session
-
-5)Dynamic Updates
-UI updates in real-time.
-No page reload required.
-All logic runs on the client side.
+<p align="center">
+  <img src="./img.png" alt="Project Banner" width="100%">
+</p>
 
 ---
 
